@@ -1,0 +1,20 @@
+server:
+  port: 8001
+
+eureka:
+  instance:
+    #eureka-server-8001
+    hostname: server8001
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka-server-8002:8002/eureka/
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@116.55.251.208:1251:dev
+    username: jres
+    password: jrealsoft
+    type: com.alibaba.druid.pool.DruidDataSource

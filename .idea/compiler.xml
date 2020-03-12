@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaclient9001" />
+        <module name="eurekaclient9002" />
+        <module name="eurekaconsumer" />
+        <module name="eurekaserver8001" />
+        <module name="eurekaserver8002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="commoninterface" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eurekaclient" target="1.8" />
+      <module name="eurekaclient (1)" target="1.8" />
+      <module name="eurekaprovider" target="1.8" />
+      <module name="eurekaserver8081" target="1.8" />
+      <module name="eurekaserver8091" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="eurekaclient" options="-parameters" />
+      <module name="eurekaclient (1)" options="-parameters" />
+      <module name="eurekaconsumer" options="" />
+      <module name="eurekaprovider" options="-parameters" />
+      <module name="eurekaserver8001" options="" />
+      <module name="eurekaserver8081" options="-parameters" />
+      <module name="eurekaserver8091" options="-parameters" />
+    </option>
+  </component>
+</project>
