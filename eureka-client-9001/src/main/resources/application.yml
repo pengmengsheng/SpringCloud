@@ -7,17 +7,22 @@ eureka:
     prefer-ip-address: true
     ip-address: 127.0.0.1
     instance-id: ${eureka.instance.ip-address}:${server.port}
+      #    客户端发送心跳的时间间隔
+    lease-renewal-interval-in-seconds: 2
+      #    服务端在接收最后一次心跳的上限，超过就剔除
+    lease-expiration-duration-in-seconds: 1
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka-server-8001:8001/eureka/,http://eureka-server-8002:8002/eureka/
+      defaultZone: http://eureka-server-8001:8001/eureka/
+#      defaultZone: http://eureka-server-8001:8001/eureka/,http://eureka-server-8002:8002/eureka/
 spring:
   application:
     name: eureka-client
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@116.55.251.208:1251:dev
-    username: jres
-    password: jrealsoft
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: job
+    password: test
     type: com.alibaba.druid.pool.DruidDataSource

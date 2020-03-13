@@ -17,6 +17,7 @@ public class IndexController {
     public Map<String,Object> getTicket(){
         Map<String,Object> ticket = new HashMap<>();
         ticket.put("name","美人鱼");
+        ticket.put("port","9001");
         return ticket;
     }
 }

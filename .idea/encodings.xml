@@ -2,19 +2,14 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-consumer-order80" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/actuator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-9002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-8002" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaclient" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaconsumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaserver8081" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaserver8091" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zk-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zk-consumer" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

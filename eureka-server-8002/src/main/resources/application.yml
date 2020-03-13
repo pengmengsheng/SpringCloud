@@ -13,7 +13,7 @@ eureka:
 spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@116.55.251.208:1251:dev
-    username: jres
-    password: jrealsoft
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: job
+    password: test
     type: com.alibaba.druid.pool.DruidDataSource

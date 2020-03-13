@@ -1,0 +1,40 @@
+server:
+  port: 8088
+
+management:
+  endpoint:
+    loggers:
+      enabled: true
+    health:
+      show-details: always
+    beans:
+      enabled: true
+    metrics:
+      enabled: true
+    env:
+      enabled: true
+    httptrace:
+      enabled: true
+    mappings:
+      enabled: true
+    heapdump:
+      enabled: true
+
+  endpoints:
+    web:
+      exposure:
+        include: info, health, beans,loggers,metrics,env,httptrace,mappings,heapdump
+#   禁用所有端口
+#    enabled-by-default: false
+  health:
+    diskspace:
+      enabled: true
+      path: d:/
+    db:
+      enabled: true
+    solr:
+      enabled: true
+spring:
+  data:
+    solr:
+      host: http://127.0.0.1:8983/solr1

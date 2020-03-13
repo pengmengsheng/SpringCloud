@@ -6,16 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="actuator" />
+        <module name="demo" />
         <module name="eurekaclient9001" />
         <module name="eurekaclient9002" />
         <module name="eurekaconsumer" />
         <module name="eurekaserver8001" />
         <module name="eurekaserver8002" />
+        <module name="zkclient" />
+        <module name="zkconsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-consumer-order80" target="1.8" />
       <module name="commoninterface" target="1.8" />
+      <module name="consumer" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaclient (1)" target="1.8" />
@@ -26,6 +31,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="actuator" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaclient (1)" options="-parameters" />
