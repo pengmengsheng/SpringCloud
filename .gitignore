@@ -1,7 +1,1 @@
-/eureka-server-8001/target
-/eureka-server-8002/target
-/eureka-client-9001/target
-/eureka-client-9002/target
-/eureka-consumer/target
-/zk-client/target
-/zk-consumer/target
+**/target/**
