@@ -1,4 +1,4 @@
-package com.clound.eureka.server;
+package com.cloud.eureka.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

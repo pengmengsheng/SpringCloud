@@ -8,11 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="actuator" />
         <module name="demo" />
+        <module name="eureka-client-9001" />
+        <module name="eureka-client-9002" />
+        <module name="eureka-consumer" />
+        <module name="eureka-server-8001" />
+        <module name="eureka-server-8002" />
         <module name="eurekaclient9001" />
         <module name="eurekaclient9002" />
         <module name="eurekaconsumer" />
         <module name="eurekaserver8001" />
         <module name="eurekaserver8002" />
+        <module name="hystrixclient" />
+        <module name="hystrixconsumer" />
+        <module name="zk-client" />
+        <module name="zk-consumer" />
         <module name="zkclient" />
         <module name="zkconsumer" />
       </profile>
