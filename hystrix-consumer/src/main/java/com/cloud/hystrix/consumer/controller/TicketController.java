@@ -8,10 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+
 @DefaultProperties(defaultFallback="timeout2")
 @RestController
 public class TicketController {
-    @Autowired
+    @Resource
     TicketService ticketService;
 
     @GetMapping("/consumer/ticket/get")

@@ -1,11 +1,11 @@
 package com.cloud.hystrix.consumer.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Service
-@FeignClient("hystrix-client")
+@FeignClient(value = "hystrix-client",fallback = FallBackServiceImpl.class)
 public interface TicketService {
 
     @GetMapping("/ticket/get")
