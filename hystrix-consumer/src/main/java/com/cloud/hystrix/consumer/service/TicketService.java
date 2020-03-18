@@ -10,6 +10,8 @@ public interface TicketService {
 
     @GetMapping("/ticket/get")
      String ticket();
+    @GetMapping("/ticket/buy")
+     String getTicket();
 
     @GetMapping("/ticket/timeout")
      String timeout();

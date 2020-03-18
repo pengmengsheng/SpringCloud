@@ -16,6 +16,7 @@
         <module>zk-consumer</module>
         <module>hystrix-client</module>
         <module>hystrix-consumer</module>
+        <module>gateway</module>
     </modules>
     <packaging>pom</packaging>
 

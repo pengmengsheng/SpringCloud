@@ -10,6 +10,11 @@ public class FallBackServiceImpl implements TicketService {
     }
 
     @Override
+    public String getTicket() {
+        return null;
+    }
+
+    @Override
     public String timeout() {
         return "timeout fallback";
     }

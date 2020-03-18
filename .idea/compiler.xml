@@ -18,6 +18,7 @@
         <module name="eurekaconsumer" />
         <module name="eurekaserver8001" />
         <module name="eurekaserver8002" />
+        <module name="gateway" />
         <module name="hystrixclient" />
         <module name="hystrixconsumer" />
         <module name="zk-client" />

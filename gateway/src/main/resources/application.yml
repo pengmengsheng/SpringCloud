@@ -1,0 +1,26 @@
+server:
+  port: 9999
+
+eureka:
+  instance:
+    hostname: gateway-service
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          #          开启动态路由
+          enabled: true
+      routes:
+        - id: route
+          uri: lb://hystrix-client
+          predicates:
+           - Path=/ticket/get
+

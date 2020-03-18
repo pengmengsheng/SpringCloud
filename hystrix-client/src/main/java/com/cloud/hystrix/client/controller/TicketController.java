@@ -14,6 +14,11 @@ public class TicketController {
     public String ticket(){
         return "正常调用";
     }
+
+    @GetMapping("/ticket/buy")
+    public String getTicket(){
+        return "成功";
+    }
     @GetMapping("/ticket/timeout")
     @HystrixCommand(fallbackMethod="timeout3",commandProperties={
             //@HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="3000")

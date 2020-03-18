@@ -16,11 +16,6 @@ public class TicketController {
     @Resource
     TicketService ticketService;
 
-    @GetMapping("/consumer/ticket/get")
-    String ticket() {
-        return ticketService.ticket();
-    }
-
     @GetMapping("/consumer/ticket/timeout")
    /* @HystrixCommand(fallbackMethod="timeout2",commandProperties={
             @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="2000")
@@ -30,6 +25,11 @@ public class TicketController {
     })
     String timeout() {
         return ticketService.timeout();
+    }
+
+    @GetMapping("/consumer/ticket/buy")
+    String ticket() {
+        return ticketService.getTicket();
     }
     String timeout2() {
         return "响应超时";
