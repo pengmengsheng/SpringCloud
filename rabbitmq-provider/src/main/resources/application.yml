@@ -1,0 +1,28 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: cloud-stream-provider
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        output:
+          destination: rabbitexchange
+          content-type: application/json
+          binder: defaultRabbit
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+  instance:
+    prefer-ip-address: true

@@ -3,7 +3,9 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/actuator" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client8089" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-9002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
@@ -12,6 +14,9 @@
     <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrix-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrix-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-client8081" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-client8082" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zk-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zk-consumer" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

@@ -1,0 +1,33 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pengmengsheng/SpringCloud.git
+
+          search-paths: SpringCloud
+
+          skipSslValidation: true
+      #     读取分支
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+
+# rabbitmq
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#  暴露bus-refresh刷新端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
