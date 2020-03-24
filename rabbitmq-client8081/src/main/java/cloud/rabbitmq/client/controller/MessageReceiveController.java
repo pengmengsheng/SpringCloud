@@ -16,7 +16,7 @@ import org.springframework.stereotype.Controller;
  */
 @Component
 @EnableBinding(Sink.class)
-public class MessageReveiveController {
+public class MessageReceiveController {
 
     @Value("${server.port}")
     private String port;

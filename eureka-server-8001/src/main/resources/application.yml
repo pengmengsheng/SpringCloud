@@ -20,6 +20,10 @@ spring:
     username: job
     password: test
     type: com.alibaba.druid.pool.DruidDataSource
+  sleuth:
+    sampler:
+      probability: 1
+
 management:
   endpoint:
     health:

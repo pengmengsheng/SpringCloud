@@ -25,9 +25,10 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>config-client8089</module>
-        <module>rabbitmq-consumer</module>
+        <module>rabbitmq-provider</module>
         <module>rabbitmq-client8081</module>
         <module>rabbitmq-client8082</module>
+        <module>jwt</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -24,6 +24,7 @@
         <module name="gateway" />
         <module name="hystrixclient" />
         <module name="hystrixconsumer" />
+        <module name="jwt" />
         <module name="rabbitmqclient8081" />
         <module name="rabbitmqclient8082" />
         <module name="rabbitmqprovider" />
@@ -67,6 +68,7 @@
       <module name="gateway" options="-parameters" />
       <module name="hystrixclient" options="-parameters" />
       <module name="hystrixconsumer" options="-parameters" />
+      <module name="jwt" options="-parameters" />
       <module name="rabbitmqclient8081" options="-parameters" />
       <module name="rabbitmqclient8082" options="-parameters" />
       <module name="rabbitmqprovider" options="-parameters" />
