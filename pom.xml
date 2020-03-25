@@ -29,12 +29,15 @@
         <module>rabbitmq-client8081</module>
         <module>rabbitmq-client8082</module>
         <module>jwt</module>
+        <module>alibaba-nacos-provider9090</module>
+        <module>alibaba-nacos-consumer</module>
+        <module>alibaba-nacos-consumer</module>
+        <module>alibaba-nacos-config</module>
     </modules>
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
         <spring.cloud.version>Hoxton SR3</spring.cloud.version>
         <spring.cloud.alibaba.version>2.1.0.RELEASE</spring.cloud.alibaba.version>
         <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
@@ -51,7 +54,6 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

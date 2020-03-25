@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="actuator" />
+        <module name="alibabanacosconfig" />
+        <module name="alibabanacosconsumer" />
+        <module name="alibabanacosprovider9090" />
         <module name="config-server" />
         <module name="configclient" />
         <module name="configclient8089" />
@@ -49,6 +52,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="actuator" options="-parameters" />
+      <module name="alibabanacosconfig" options="-parameters" />
+      <module name="alibabanacosconsumer" options="-parameters" />
+      <module name="alibabanacosprovider9090" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="configclient" options="-parameters" />
       <module name="configclient8089" options="-parameters" />

@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+
+ service:
+  nacos-service: http://nacos-provider
