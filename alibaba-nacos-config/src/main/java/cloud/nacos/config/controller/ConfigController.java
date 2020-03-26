@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/config")
 public class ConfigController {
 
-    @Value("${config.id}")
-    private String id;
+    @Value("${config.info}")
+    private String info;
 
     @GetMapping("/get")
     public String get(){
-        return id;
+        return info;
     }
 }

@@ -55,15 +55,15 @@
       <module name="alibabanacosconfig" options="-parameters" />
       <module name="alibabanacosconsumer" options="-parameters" />
       <module name="alibabanacosprovider9090" options="-parameters" />
-      <module name="config-server" options="-parameters" />
-      <module name="configclient" options="-parameters" />
-      <module name="configclient8089" options="-parameters" />
+      <module name="config-server" options="" />
+      <module name="configclient" options="" />
+      <module name="configclient8089" options="" />
       <module name="demo" options="-parameters" />
-      <module name="eureka-client-9001" options="-parameters" />
-      <module name="eureka-client-9002" options="-parameters" />
-      <module name="eureka-consumer" options="-parameters" />
-      <module name="eureka-server-8001" options="-parameters" />
-      <module name="eureka-server-8002" options="-parameters" />
+      <module name="eureka-client-9001" options="" />
+      <module name="eureka-client-9002" options="" />
+      <module name="eureka-consumer" options="" />
+      <module name="eureka-server-8001" options="" />
+      <module name="eureka-server-8002" options="" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaclient (1)" options="-parameters" />
       <module name="eurekaconsumer" options="" />
@@ -71,15 +71,15 @@
       <module name="eurekaserver8001" options="" />
       <module name="eurekaserver8081" options="-parameters" />
       <module name="eurekaserver8091" options="-parameters" />
-      <module name="gateway" options="-parameters" />
-      <module name="hystrixclient" options="-parameters" />
-      <module name="hystrixconsumer" options="-parameters" />
-      <module name="jwt" options="-parameters" />
-      <module name="rabbitmqclient8081" options="-parameters" />
-      <module name="rabbitmqclient8082" options="-parameters" />
-      <module name="rabbitmqprovider" options="-parameters" />
-      <module name="zk-client" options="-parameters" />
-      <module name="zk-consumer" options="-parameters" />
+      <module name="gateway" options="" />
+      <module name="hystrixclient" options="" />
+      <module name="hystrixconsumer" options="" />
+      <module name="jwt" options="" />
+      <module name="rabbitmqclient8081" options="" />
+      <module name="rabbitmqclient8082" options="" />
+      <module name="rabbitmqprovider" options="" />
+      <module name="zk-client" options="" />
+      <module name="zk-consumer" options="" />
     </option>
   </component>
 </project>

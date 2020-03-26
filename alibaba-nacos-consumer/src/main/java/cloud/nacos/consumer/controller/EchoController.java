@@ -17,8 +17,7 @@ import javax.annotation.Resource;
 public class EchoController {
     @Resource
     RestTemplate restTemplate;
-    @Value("${ service.nacos-service}")
-    private String SERVICE_URL;
+    private String SERVICE_URL = "http://nacos-provider";
 
     @GetMapping("/echo/{id}")
     public String echo(@PathVariable String id){
