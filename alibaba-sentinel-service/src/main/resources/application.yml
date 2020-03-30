@@ -1,0 +1,28 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+      datasource:
+        dsl:
+          nacos:
+            dataId: sentinel-service-dev
+            groupId: DEFAULT_GROUP
+            server-addr: localhost:8848
+            data-type: json
+            rule_type: flow
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
