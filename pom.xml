@@ -35,6 +35,9 @@
         <module>alibaba-nacos-consumer</module>
         <module>alibaba-nacos-config</module>
         <module>alibaba-sentinel-service</module>
+        <module>seta_storage</module>
+        <module>seta_account</module>
+        <module>seta_order</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -1,12 +1,11 @@
 package cloud.nacos.consumer.controller;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.util.Map;
 
 /**
  * @author pms
@@ -22,5 +21,9 @@ public class EchoController {
     @GetMapping("/echo/{id}")
     public String echo(@PathVariable String id){
         return restTemplate.getForObject(SERVICE_URL+"/echo/"+id,String.class);
+    }
+    @PostMapping("/send")
+    public void post(Map<String,Object> param){
+        System.out.println(param);
     }
 }

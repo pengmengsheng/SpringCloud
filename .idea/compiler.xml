@@ -32,6 +32,9 @@
         <module name="rabbitmqclient8081" />
         <module name="rabbitmqclient8082" />
         <module name="rabbitmqprovider" />
+        <module name="seta_account" />
+        <module name="seta_order" />
+        <module name="seta_storage" />
         <module name="zk-client" />
         <module name="zk-consumer" />
         <module name="zkclient" />
@@ -80,6 +83,9 @@
       <module name="rabbitmqclient8081" options="-parameters" />
       <module name="rabbitmqclient8082" options="-parameters" />
       <module name="rabbitmqprovider" options="-parameters" />
+      <module name="seta_account" options="-parameters" />
+      <module name="seta_order" options="-parameters" />
+      <module name="seta_storage" options="-parameters" />
       <module name="zk-client" options="-parameters" />
       <module name="zk-consumer" options="-parameters" />
     </option>

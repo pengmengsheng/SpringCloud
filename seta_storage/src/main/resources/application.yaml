@@ -1,0 +1,17 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: seata-storage
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8488
+    alibaba:
+      seata:
+        tx-service-group: tx_group
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: storage
+    password: jrealsoft
